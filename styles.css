@@ -181,7 +181,7 @@ body {
 
 /* Login screen styles */
 #login-screen {
-  background: linear-gradient(135deg, rgba(242,80,34,0.15) 0%, rgba(127,186,0,0.15) 25%, rgba(0,164,239,0.15) 50%, rgba(255,185,0,0.15) 75%, rgba(242,80,34,0.15) 100%);
+  background: linear-gradient(135deg, rgba(242,80,34,0.2) 0%, rgba(127,186,0,0.2) 25%, rgba(0,164,239,0.2) 50%, rgba(255,185,0,0.2) 75%, rgba(242,80,34,0.2) 100%);
 }
 
 .login-container {
